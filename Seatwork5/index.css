@@ -1,0 +1,38 @@
+body {
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#tbl1 {
+    border: solid b 2px;
+    background-color: navy;
+    border: solid aqua 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+}
+
+table td{
+    border: solid blue 2px;
+    text-align: left;
+}
+
+.radio1, .course{
+    color: red;
+}
+
+
+
+
+
+
+
+

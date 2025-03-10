@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+    "navibar    main";
+}
+
+nav {
+    position: fixed;
+    height: 140vh;
+    grid-area: navibar;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    grid-area: main;
+    background-color: whitesmoke;
+}
+
+#Categories {
+    background-color: blue;
+    margin-bottom: 3em;
+    font-size: 35px;
+    color: pink;
+}
+
+div {
+    background-color: maroon;
+    margin: 1px;
+    width: 280px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: lightgreen;
+    font-size: 30px;
+}
+
+a:hover {
+    color: blue;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.Microsoft {
+    border: double lightblue 3px;
+    margin-left: 70px;
+    width: 600px;
+    color: aqua;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+ul {
+    position: relative;
+    left: 80px;
+    list-style: square;
+}
+
+li {
+    border: double lightblue 3px;
+    background-color: fuchsia;
+    width: 460px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+    
